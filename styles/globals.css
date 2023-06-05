@@ -64,7 +64,7 @@ table.basic a {
   @apply bg-blue-900 text-white text-sm font-semibold py-1 px-2 rounded-md inline-flex items-center gap-1 mr-1;
 }
 
-.btn-yes, .btn-no{
+.btn-yes, .btn-no, .btn-secundary{
   @apply px-4 py-1 rounded-md
 }
 
@@ -74,4 +74,8 @@ table.basic a {
 
 .btn-no{
   @apply bg-red-800 text-white font-semibold;
+}
+
+.btn-secundary{
+  @apply bg-gray-700 text-white font-semibold;
 }
